@@ -37,7 +37,7 @@ function App() {
   return (
     <>
        <RouterProvider router={router}/>
-       <ContactsPage contact={contacts} handleAddContact={handleAddContact} />
+       <ContactsPage contacts={contacts} handleAddContact={handleAddContact} />
         <AppointmentsPage appointments={appointments} />
     
     </>
